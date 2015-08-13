@@ -614,6 +614,7 @@ h1, h2, p { margin: 0; padding: 0; }
   text-transform: lowercase;
   text-align: right;
   color: #37424A;
+  width: 385px;
   letter-spacing: -0.04em;
   line-height: 1em;
   display: inline-block;
@@ -628,7 +629,7 @@ h1, h2, p { margin: 0; padding: 0; }
   font-weight: 300;
   width: 390px;
   color: #37424A;
-  margin: 0 0 60px 0;
+  margin: 0 0 60px 15px;
   padding-top: 0.9em;
   display: inline-block;
 }
