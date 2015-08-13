@@ -615,7 +615,7 @@ h1, h2, p { margin: 0; padding: 0; }
   text-align: right;
   float: left;
   color: #37424A;
-  margin: 0 0 60px 20px;
+  margin: 0 0 0 30px;
   letter-spacing: -0.04em;
   line-height: 1em;
 }
@@ -629,8 +629,8 @@ h1, h2, p { margin: 0; padding: 0; }
   font-weight: 400;
   max-width: 500px;
   color: #37424A;
-  margin-bottom: 30px;
-  padding-top: 1em;
+  margin: 0 0 60px 20px;
+  padding-top: 0.9em;
 }
 .section-bee-jupiter .container {
   overflow: hidden;
@@ -655,7 +655,16 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-bee-jupiter .caption a:hover { 
   background-color: #fff; 
 }
+.section-bee-jupiter .beerule {
+  text-align: center;
+}
+.section-bee-jupiter .beesvg {
+  display: inline;
+  width: 100px;
+}
 .section-bee-jupiter hr {
-  border-top: 1px dashed #37424A;
+  border-top: 2px dashed #37424A;
   border-bottom: none;
+  display: inline;
+  width: 200px;
 }
