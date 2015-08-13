@@ -615,7 +615,7 @@ h1, h2, p { margin: 0; padding: 0; }
   text-align: right;
   float: left;
   color: #37424A;
-  margin: 0 0 0 30px;
+  margin: 0 -50% 0 0;
   letter-spacing: -0.04em;
   line-height: 1em;
 }
@@ -625,12 +625,13 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-bee-jupiter p {
   text-align: justify;
   float: right;
-  font: 1.2em 'PT Sans Narrow', Helvetica, sans-serif;
-  font-weight: 400;
-  max-width: 500px;
+  font: 1.1em 'Merriweather', Helvetica, sans-serif;
+  font-weight: 300;
+  max-width: 400px;
   color: #37424A;
   margin: 0 0 60px 20px;
   padding-top: 0.9em;
+  padding-left: 20px;
 }
 .section-bee-jupiter .container {
   overflow: hidden;
@@ -645,26 +646,35 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-bee-jupiter .caption {
   margin: 0 0 40px 20px; 
   color: #37424A; 
-  text-align: right;
+  text-align: left;
+  display: inline;
 }
 .section-bee-jupiter .caption a { 
   color: #37424A; 
-  font: 1em 'PT Sans Narrow', Helvetica, sans-serif;
+  font: 1em 'Merriweather Sans', Helvetica, sans-serif;
   text-transform: uppercase;
+  letter-spacing: -0.03em;
 }
 .section-bee-jupiter .caption a:hover { 
   background-color: #fff; 
 }
-.section-bee-jupiter .beerule {
-  text-align: center;
-}
 .section-bee-jupiter .beesvg {
-  display: inline;
+  display: block;
   width: 100px;
+  text-align: center;
+  margin: auto;
 }
 .section-bee-jupiter hr {
-  border-top: 2px dashed #37424A;
+  border-top: 1px dashed #37424A;
   border-bottom: none;
-  display: inline;
-  width: 200px;
+  margin-bottom: 20px;
+}
+
+.section-bee-jupiter .beewithoutstinger {
+  /* doesn't work in IE */
+  transform: rotate(180deg);
+  margin-bottom: 40px;
+}
+.section-bee-jupiter .beewithstinger {
+  clear: right;
 }
