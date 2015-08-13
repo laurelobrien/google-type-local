@@ -638,16 +638,21 @@ h1, h2, p { margin: 0; padding: 0; }
   max-width: 800px;
 }
 .section-bee-jupiter .avatar {
-  text-align: right;
+  display: inline;
+  text-decoration: none;
+  font: 1em 'Merriweather Sans', Helvetica, sans-serif;
+  color: #37424A;
 }
-.section-bee-jupiter .avatar img { 
-  margin: 0 0 10px 20px; 
+/* .section-bee-jupiter .avatar img { 
+  margin: 0 0 10px 20px; */
 }
 .section-bee-jupiter .caption {
   margin: 0 0 40px 20px; 
   color: #37424A; 
   text-align: left;
   display: inline;
+  font-size: 1em;
+  line-height: 0.9em;
 }
 .section-bee-jupiter .caption a { 
   color: #37424A; 
@@ -669,12 +674,14 @@ h1, h2, p { margin: 0; padding: 0; }
   border-bottom: none;
   margin-bottom: 20px;
 }
-
 .section-bee-jupiter .beewithoutstinger {
   /* doesn't work in IE */
   transform: rotate(180deg);
   margin-bottom: 40px;
 }
 .section-bee-jupiter .beewithstinger {
-  clear: right;
+  display: inline;
+}
+.section-bee-jupiter .beecolophon {
+  clear: both;
 }
