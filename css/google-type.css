@@ -603,31 +603,33 @@ h1, h2, p { margin: 0; padding: 0; }
 }
 
 
-/* The Bee & Jupiter
+/* The Bee and Jupiter
 -----------------------------------*/
 .section-bee-jupiter {
   background-color: #F2D653;
-  background-size: cover;
   padding: 90px 0 100px 0;
 }
 .section-bee-jupiter h2 {
-  font: 5em 'Yeseva One', Georgia, serif;
+  font: 4em 'Yeseva One', Georgia, serif;
   text-transform: lowercase;
+  text-align: right;
+  float: left;
   color: #37424A;
   margin: 0 0 60px 20px;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
+  line-height: 1em;
+}
+.section-bee-jupiter h2 span {
+  font: 0.8em 'Yeseva One', Georgia, serif;
 }
 .section-bee-jupiter p {
-  font: 1.1em 'Open Sans', Helvetica, sans-serif;
-  max-width: 540px;
+  text-align: left;
+  float: right;
+  font: 1.2em 'PT Sans Narrow', Helvetica, sans-serif;
+  font-weight: 400;
+  max-width: 500px;
   color: #37424A;
-  margin: 0 0 0 20px;
-}
-.section-bee-jupiter em {
-  font: 1.1em 'Yeseva One', Helvetica, sans-serif;
-  max-width: 540px;
-  color: #37424A;
-  margin: 0 0 0 20px;
+  margin-bottom: 30px;
 }
 .section-bee-jupiter .avatar img { margin: 0 0 10px 20px; }
 .section-bee-jupiter .caption { margin: 0 0 40px 20px; color: #eee; }
