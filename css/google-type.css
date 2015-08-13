@@ -647,5 +647,15 @@ h1, h2, p { margin: 0; padding: 0; }
   color: #37424A; 
   text-align: right;
 }
-.section-bee-jupiter .caption a { color: #37424A; }
-.section-bee-jupiter .caption a:hover { background-color: #fff; }
+.section-bee-jupiter .caption a { 
+  color: #37424A; 
+  font: 1em 'PT Sans Narrow', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.section-bee-jupiter .caption a:hover { 
+  background-color: #fff; 
+}
+.section-bee-jupiter hr {
+  border-top: 1px dashed #37424A;
+  border-bottom: none;
+}
