@@ -623,15 +623,29 @@ h1, h2, p { margin: 0; padding: 0; }
   font: 0.8em 'Yeseva One', Georgia, serif;
 }
 .section-bee-jupiter p {
-  text-align: left;
+  text-align: justify;
   float: right;
   font: 1.2em 'PT Sans Narrow', Helvetica, sans-serif;
   font-weight: 400;
   max-width: 500px;
   color: #37424A;
   margin-bottom: 30px;
+  padding-top: 1em;
 }
-.section-bee-jupiter .avatar img { margin: 0 0 10px 20px; }
-.section-bee-jupiter .caption { margin: 0 0 40px 20px; color: #eee; }
-.section-bee-jupiter .caption a { color: #eee; }
-.section-bee-jupiter .caption a:hover { background-color: #37424A; }
+.section-bee-jupiter .container {
+  overflow: hidden;
+  max-width: 800px;
+}
+.section-bee-jupiter .avatar {
+  text-align: right;
+}
+.section-bee-jupiter .avatar img { 
+  margin: 0 0 10px 20px; 
+}
+.section-bee-jupiter .caption {
+  margin: 0 0 40px 20px; 
+  color: #37424A; 
+  text-align: right;
+}
+.section-bee-jupiter .caption a { color: #37424A; }
+.section-bee-jupiter .caption a:hover { background-color: #fff; }
