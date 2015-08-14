@@ -607,71 +607,80 @@ h1, h2, p { margin: 0; padding: 0; }
 -----------------------------------*/
 .section-bee-jupiter {
   background-color: #F2D653;
-  padding: 90px 0 100px 0;
+  padding: 30px 0 100px 0;
 }
 .section-bee-jupiter h2 {
-  font: 4em 'Yeseva One', Georgia, serif;
+  font: 5em 'Yeseva One', Georgia, serif;
   text-transform: lowercase;
   text-align: right;
   color: #37424A;
   width: 370px;
   letter-spacing: -0.04em;
-  line-height: 1em;
+  line-height: 1.1em;
   display: inline-block;
   vertical-align: top;
 }
 .section-bee-jupiter h2 span {
-  font: 0.8em 'Yeseva One', Georgia, serif;
+  font: 0.7em 'Yeseva One', Georgia, serif;
 }
 .section-bee-jupiter p {
   text-align: justify;
-  font: 1.1em 'Merriweather Sans', Helvetica, sans-serif;
+  font: 0.85em 'Merriweather Sans', Helvetica, sans-serif;
   font-weight: 300;
   width: 390px;
   color: #37424A;
   margin: 0 0 20px 25px;
-  padding-top: 0.9em;
   display: inline-block;
+  padding-top: 1.2em;
+}
+.section-bee-jupiter p.colophontitle {
+  font: 1em 'Yeseva One', Georgia, serif;
+  text-align: right;
+  margin: 0;
 }
 .section-bee-jupiter h3 {
   text-align: center;
-  font: 1.2em 'Merriweather Sans', Helvetica, sans-serif;
-  font-style: italic;
+  font: 1.2em 'Merriweather', Helvetica, sans-serif;
   color: #37424A;
+  margin: 30px 0 40px 0;
 }
 .section-bee-jupiter .container {
   overflow: hidden;
   max-width: 800px;
 }
 .section-bee-jupiter .avatar {
-  display: inline;
+  text-align: right;
   text-decoration: none;
   font: 1em 'Merriweather Sans', Helvetica, sans-serif;
   color: #37424A;
-}
-/* .section-bee-jupiter .avatar img { 
-  margin: 0 0 10px 20px; */
+  display: block;
+  margin: 0;
 }
 .section-bee-jupiter .caption {
-  margin: 0 0 40px 20px; 
+  margin: 0; 
   color: #37424A; 
-  text-align: left;
-  display: inline;
+  text-align: right;
   font-size: 1em;
   line-height: 0.9em;
+  width: 325px;
 }
 .section-bee-jupiter .caption a { 
   color: #37424A; 
-  font: 1em 'Merriweather Sans', Helvetica, sans-serif;
+  font: 0.9em 'Merriweather Sans', Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: -0.03em;
+  text-align: right;
 }
 .section-bee-jupiter .caption a:hover { 
   background-color: #fff; 
 }
+.section-bee-jupiter .colophon {
+  text-align: right;
+  margin: 0;
+}
 .section-bee-jupiter .beesvg {
   display: block;
-  width: 100px;
+  width: 130px;
   text-align: center;
   margin: auto;
 }
@@ -687,8 +696,4 @@ h1, h2, p { margin: 0; padding: 0; }
   margin-bottom: 40px;
 }
 .section-bee-jupiter .beewithstinger {
-  display: inline;
-}
-.section-bee-jupiter .beecolophon {
-  clear: both;
 }
