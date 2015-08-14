@@ -614,7 +614,7 @@ h1, h2, p { margin: 0; padding: 0; }
   text-transform: lowercase;
   text-align: right;
   color: #37424A;
-  width: 385px;
+  width: 370px;
   letter-spacing: -0.04em;
   line-height: 1em;
   display: inline-block;
@@ -625,13 +625,19 @@ h1, h2, p { margin: 0; padding: 0; }
 }
 .section-bee-jupiter p {
   text-align: justify;
-  font: 1.1em 'Merriweather', Helvetica, sans-serif;
+  font: 1.1em 'Merriweather Sans', Helvetica, sans-serif;
   font-weight: 300;
   width: 390px;
   color: #37424A;
-  margin: 0 0 60px 15px;
+  margin: 0 0 20px 25px;
   padding-top: 0.9em;
   display: inline-block;
+}
+.section-bee-jupiter h3 {
+  text-align: center;
+  font: 1.2em 'Merriweather Sans', Helvetica, sans-serif;
+  font-style: italic;
+  color: #37424A;
 }
 .section-bee-jupiter .container {
   overflow: hidden;
@@ -673,6 +679,7 @@ h1, h2, p { margin: 0; padding: 0; }
   border-top: 1px dashed #37424A;
   border-bottom: none;
   margin-bottom: 20px;
+  max-width: 780px;
 }
 .section-bee-jupiter .beewithoutstinger {
   /* doesn't work in IE */
