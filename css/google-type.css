@@ -8,7 +8,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
 
-.container { width: 960px; margin: 0 auto; }
+.container { max-width: 960px; margin: 0 auto; }
 
 .opentype {
   -webkit-font-feature-settings: "liga", "dlig";
@@ -289,7 +289,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-fox-lion .caption { margin: 0 0 40px 20px; color: #403E2F; }
 .section-fox-lion .caption a { color: #403E2F; }
 .section-fox-lion .caption a:hover { color: #D74433; background-color: #fff; }
-
+.section-fox-lion .container { max-width: 960px; }
 
 /* ------------------------------------ */
 /* Styles for The Horse and the Groom */
