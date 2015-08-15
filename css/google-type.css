@@ -607,7 +607,7 @@ h1, h2, p { margin: 0; padding: 0; }
 -----------------------------------*/
 .section-bee-jupiter {
   background-color: #F2D653;
-  padding: 50px 0 100px 0;
+  padding: 110px 0 90px 0;
 }
 .section-bee-jupiter h2 {
   font: 5em 'Yeseva One', Georgia, serif;
@@ -639,6 +639,7 @@ h1, h2, p { margin: 0; padding: 0; }
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  width: auto;
 }
 .section-bee-jupiter h3 {
   text-align: center;
@@ -681,12 +682,12 @@ h1, h2, p { margin: 0; padding: 0; }
   background-color: #fff; 
 }
 .section-bee-jupiter .colophon {
-  text-align: right;
-  margin: 50px 50px 0 0;
+  text-align: center;
+  margin: 110px auto 0 auto;
 }
 .section-bee-jupiter .beesvg {
   display: block;
-  width: 130px;
+  width: 120px;
   text-align: center;
   margin: auto;
 }
@@ -696,10 +697,23 @@ h1, h2, p { margin: 0; padding: 0; }
   margin-bottom: 20px;
   max-width: 780px;
 }
-.section-bee-jupiter .beewithoutstinger {
-  /* doesn't work in IE */
-  transform: rotate(180deg);
-  margin-bottom: 40px;
-}
 .section-bee-jupiter .beewithstinger {
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-bee-jupiter .crescent {
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+.section-bee-jupiter {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+.section-bee-jupiter .honeycombsvg {
+  display: block;
+  width: 60px;
+  text-align: center;
+  margin: 20px auto 0 auto;
 }
